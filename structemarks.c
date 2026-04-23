@@ -1,0 +1,105 @@
+#include<stdio.h>
+#include<string.h>
+struct marks{
+    int marks;
+};
+void printfinfo(struct marks marks);
+int main(){
+    struct marks marks[30];
+    printf("Enter a marks of 1st student:");
+    scanf("%d",&marks[0].marks);
+    printf("Enter a marks of 2nd student:");
+    scanf("%d",&marks[1].marks);
+    printf("Enter a marks of 3rd student:");
+    scanf("%d",&marks[2].marks);
+    printf("Enter a marks of 4th student:");
+    scanf("%d",&marks[3].marks);
+    printf("Enter a marks of 5th student:");
+    scanf("%d",&marks[4].marks);
+    printf("Enter a marks of 6th student:");
+    scanf("%d",&marks[5].marks);
+    printf("Enter a marks of 7 student:");
+    scanf("%d",&marks[6].marks);
+    printf("Enter a marks of 8 student:");
+    scanf("%d",&marks[7].marks);
+    printf("Enter a marks of 9 student:");
+    scanf("%d",&marks[8].marks);
+    printf("Enter a marks of 10 student:");
+    scanf("%d",&marks[9].marks);
+    printf("Enter a marks of 11 student:");
+    scanf("%d",&marks[10].marks);
+    printf("Enter a marks of 12 student:");
+    scanf("%d",&marks[11].marks);
+    printf("Enter a marks of 13 student:");
+    scanf("%d",&marks[12].marks);
+    printf("Enter a marks of 14 student:");
+    scanf("%d",&marks[13].marks);
+    printf("Enter a marks of 15 student:");
+    scanf("%d",&marks[14].marks);
+    printf("Enter a marks of 16 student:");
+    scanf("%d",&marks[15].marks);
+    printf("Enter a marks of 17 student:");
+    scanf("%d",&marks[16].marks);
+    printf("Enter a marks of 18 student:");
+    scanf("%d",&marks[17].marks);
+    printf("Enter a marks of 19 student:");
+    scanf("%d",&marks[18].marks);
+    printf("Enter a marks of 20 student:");
+    scanf("%d",&marks[19].marks);
+    printf("Enter a marks of 21 student:");
+    scanf("%d",&marks[20].marks);
+    printf("Enter a marks of 22 student:");
+    scanf("%d",&marks[21].marks);
+    printf("Enter a marks of 23 student:");
+    scanf("%d",&marks[22].marks);
+    printf("Enter a marks of 24 student:");
+    scanf("%d",&marks[23].marks);
+    printf("Enter a marks of 25 student:");
+    scanf("%d",&marks[24].marks);
+    printf("Enter a marks of 26 student:");
+    scanf("%d",&marks[25].marks);
+    printf("Enter a marks of 27 student:");
+    scanf("%d",&marks[26].marks);
+    printf("Enter a marks of 28 student:");
+    scanf("%d",&marks[27].marks);
+    printf("Enter a marks of 29 student:");
+    scanf("%d",&marks[28].marks);
+    printf("Enter a marks of 30 student:");
+    scanf("%d",&marks[29].marks);
+
+    printfinfo(marks[0]);
+    printfinfo(marks[1]);
+    printfinfo(marks[2]);
+    printfinfo(marks[3]);
+    printfinfo(marks[4]);
+    printfinfo(marks[5]);
+    printfinfo(marks[6]);
+    printfinfo(marks[7]);
+    printfinfo(marks[8]);
+    printfinfo(marks[9]);
+    printfinfo(marks[10]);
+    printfinfo(marks[11]);
+    printfinfo(marks[12]);
+    printfinfo(marks[13]);
+    printfinfo(marks[14]);
+    printfinfo(marks[15]);
+    printfinfo(marks[16]);
+    printfinfo(marks[17]);
+    printfinfo(marks[18]);
+    printfinfo(marks[19]);
+    printfinfo(marks[20]);
+    printfinfo(marks[21]);
+    printfinfo(marks[22]);
+    printfinfo(marks[23]);
+    printfinfo(marks[24]);
+    printfinfo(marks[25]);
+    printfinfo(marks[26]);
+    printfinfo(marks[27]);
+    printfinfo(marks[28]);
+    printfinfo(marks[29]);
+
+return 0;
+}
+void printfinfo(struct marks marks){
+    printf("%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n%d\n",marks.marks);
+}

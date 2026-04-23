@@ -1,0 +1,5 @@
+Odd number is:1
+Odd number is:3
+Odd number is:5
+Odd number is:7
+Odd number is:9
